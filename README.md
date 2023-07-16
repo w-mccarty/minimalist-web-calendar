@@ -6,7 +6,4 @@ calendar utelizing [minimalist-web-notepad](https://github.com/pereorga/minimali
 
 2. Copy REPEATING to /var/www/html/_tmp
 3. Copy NONREPEATING to /var/www/html/_tmp
-
-2. Change line 7 and 8 to reflect the address of your server and the 2 notepad files to be used:
-  - REPEATING - for events that repeat on a monthly or weekly basis
-  - NONREPEATING - for single date events
+4. Change line 7 to reflect the address of your server
