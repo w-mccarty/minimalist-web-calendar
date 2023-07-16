@@ -6,6 +6,7 @@ calendar utelizing [minimalist-web-notepad](https://github.com/pereorga/minimali
 
 2. Copy 'repeating' and 'nonrepeating' to /var/www/html/_tmp
    > 396220 -rw-r--r-- 1 www-data www-data  157 Jul 14 17:03 repeating
+   >
    > 395022 -rw-r--r-- 1 www-data www-data  135 Jul 12 00:37 nonrepeating
 
 3. Change line 7 to reflect the address of your server
