@@ -11,7 +11,7 @@ $(document).ready(function() {
 	var dateS = new Date().toString().replaceAll(" ",",").split(",");
 	var dated = parseInt(dateS[2]); // todays date
 	var firstDayS = new Date(date.getFullYear(), date.getMonth(), 1).toString().replaceAll(" ",",").split(",");
-	var weekdays = ['Sun', 'Mon', 'Tues', 'Wed', 'Thu', 'Fri', 'Sat'];
+	var weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 	var startadj = weekdays.indexOf(firstDayS[0]); // day number 0-6 of first day of month
 	var lastDayS = new Date(date.getFullYear(), date.getMonth() + 1, 0).toString().replaceAll(" ",",").split(",");
 	var lastdate = parseInt(lastDayS[2]); // last day of month
